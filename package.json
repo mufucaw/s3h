@@ -1,0 +1,27 @@
+{
+  "name": "@muhfuhcaw/s3h",
+  "version": "0.0.1",
+  "description": "S3 Helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/muhfuhcaw/s3h.git"
+  },
+  "author": "Bruce Bradley (suckjet@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhfuhcaw/s3h/issues"
+  },
+  "homepage": "https://github.com/muhfuhcaw/s3h#README",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^25.1.0",
+    "mock-fs": "^4.10.4"
+  }
+}
