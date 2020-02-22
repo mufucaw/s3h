@@ -9,7 +9,7 @@ This module allows you to:
 ### Simplest usage:
 ```
 const AWS = require('aws-sdk')
-const { detectAwsCredentials } = require('@muhfuhcaw/s3h')
+const { detectAwsCredentials } = require('s3h')
 
 const credentials = detectAwsCredentials(AWS) // This returns a genuine AWS.Credentials instance.
 const s3Client = new AWS.S3({
@@ -25,7 +25,7 @@ By default this function respects the presence of Amazon's standard `AWS_ACCESS_
 ### Simplest Usage:
 ```
 const AWS = require('aws-sdk')
-const { uploadDirectory } = require('@muhfuhcaw/s3h')
+const { uploadDirectory } = require('s3h')
 
 const s3Client = new AWS.S3() // You'll need to specify a bucket name and credentials of course.
 await uploadDirectory(s3Client, './local/dir', 'myBucket', 'uploads/end/up/in/here/')
@@ -56,7 +56,7 @@ You can pass an options object to uploadDirectory. The following keys and values
 ### Example Using Options
 ```
 const AWS = require('aws-sdk')
-const { uploadDirectory } = require('@muhfuhcaw/s3e')
+const { uploadDirectory } = require('s3h')
 
 const options = {
   maximumConcurrentUploads: 3, // Defaults to 5

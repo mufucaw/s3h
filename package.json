@@ -1,6 +1,6 @@
 {
-  "name": "@muhfuhcaw/s3h",
-  "version": "0.0.1",
+  "name": "s3h",
+  "version": "1.0.1",
   "description": "S3 Helper",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+ssh://git@github.com/muhfuhcaw/s3h.git"
   },
-  "author": "Bruce Bradley (suckjet@gmail.com)",
-  "license": "ISC",
+  "author": "VIV Labs (bbradley@sixfivelabs.com)",
+  "license": "None",
   "bugs": {
     "url": "https://github.com/muhfuhcaw/s3h/issues"
   },
