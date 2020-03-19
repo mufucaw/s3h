@@ -1,6 +1,6 @@
 {
   "name": "s3h",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "S3 Helper",
   "main": "index.js",
   "scripts": {
