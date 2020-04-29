@@ -1,6 +1,6 @@
 {
   "name": "s3h",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "S3 Helper",
   "main": "index.js",
   "scripts": {
@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/muhfuhcaw/s3h#README",
   "dependencies": {
-    "mime-types": "^2.1.26"
+    "mime-types": "^2.1.27"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
-    "jest": "^25.1.0",
-    "mock-fs": "^4.11.0"
+    "jest": "^25.5.1",
+    "mock-fs": "^4.12.0"
   }
 }
