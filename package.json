@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/muhfuhcaw/s3h#README",
   "dependencies": {
-    "mime-types": "^2.1.27"
+    "mime-types": "^2.1.30"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
+    "eslint": "^7.23.0",
     "eslint-config-google": "^0.14.0",
-    "jest": "^26.5.3",
+    "jest": "^26.6.3",
     "mock-fs": "^4.13.0"
   }
 }
